@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Portfolio | Contato</title>
+</head>
+<body class="container">
+  <!-- Inicio do menu -->
+  <section class="px-4 py-3">
+    <nav>
+      <div class="flex justify-between align-center">
+        <ul class="flex gap-1">
+          <li>
+            <a href="index.html" class="bold">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="bold">Sobre</a>
+          </li>
+          <li>
+            <a href="education.html" class="bold">Formação</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="bold">Portfólio</a>
+          </li>
+          <li>
+            <a href="contact.html" class="button bold font-franklin">Contato</a>
+          </li>
+        </ul>
+        <ul class="flex gap-1 align-center">
+          <li>
+            <a href="https://github.com/LucasAndrius" target="_blank" class="bold">
+              <img src="./images/github-mark-white.svg" alt="logo do github" class="logo"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lucasandrius.dev/" target="_blank" class="bold">
+              <img src="./images/instagram.png" alt="logo do github" class="instagram"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-1">
+    </nav>
+  </section>
+  <!-- Inicio do conteudo principal -->
+  <section class="px-4 py-3">
+    <h1>Para caso deseje entrar em contrato ;)</h1>
+    <main class="flex justify-center align-center py-3">
+      <div class=" w-50 bg-white p-3 rounded-xs">
+        <form id="contactSubmit" class="flex w-full flex flex-col text-black bold">
+          <label for="fname">Nome completo</label>
+          <input type="text" id="fname"><br>
+          <label for="email">E-mail</label>
+          <input type="text" id="email"/>
+          <label for="tarea" class="mt-1">Digite sua mensagem</label>
+          <textarea name="area de texto" id="tarea"></textarea>
+          <input type="submit" value="Submit" class="button bold my-1">
+        </form>
+      </div>
+    </div>
+    </main>
+  </section>
+  <!-- Inicio do rodapé -->
+  <section class="pb-3">
+    <footer class="px-4">
+      <hr class="my-2">
+      <div class="flex justify-between">
+        <div>
+          <nav>
+            <ul class="flex flex-col gap-1">
+              <li>
+                <a href="index.html" class="bold">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="bold">Sobre</a>
+              </li>
+              <li>
+                <a href="education.html" class="bold">Formação</a>
+              </li>
+              <li>
+                <a href="portfolio.html" class="bold">Portfólio</a>
+              </li>
+              <li>
+                <a href="contact.html" class="button bold font-franklin">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <!-- Preview musica do spotfy -->
+          <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/4wrCoDYZsOuqyGUCumTlmd?utm_source=generator" width="100%" height="152"
+            frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--Importando arquivo main para pegar dados do formulário-->
+  <script src="./js/main.js"></script>
+</body>
+</html>

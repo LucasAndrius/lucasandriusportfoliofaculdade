@@ -1,0 +1,350 @@
+/*
+Queria tanto usar tailwind ._.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+input{
+  margin-top: 4px;
+  margin-bottom: 8px;
+
+  padding: 4px;
+  border-radius: 4px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+label{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  max-width: 600px;
+  max-height: 160px;
+}
+textarea{
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  max-width: 600px;
+  height: 100px;
+  max-height: 160px;
+}
+.container{
+  margin: auto;
+  max-width: 1024px;
+}
+.cover {
+  object-fit: cover;
+}
+
+.text-black{
+  color: black;
+}
+.bold {
+font-weight: bold;
+}
+.font-franklin{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+
+.logo{
+  width: 30px;
+  object-fit: cover;
+}
+.instagram{
+  width: 40px;
+  object-fit: cover;
+}
+
+.opacity-xl{
+  opacity: 70%;
+}
+.opacity-md{
+  opacity: 50%;
+}
+
+.h-10{
+  height: 10rem;
+}
+.h-20{
+  height: 20rem;
+}
+.h-30{
+  height: 30rem;
+}
+.h-40{
+  height: 40rem;
+}
+.h-70-vh{
+  height: 70vh;
+}
+
+.w-10{
+  width:10rem;
+}
+.w-20{
+  width:20rem;
+}
+.w-30{
+  width:30rem;
+}
+.w-40{
+  width:40rem;
+}
+.w-50{
+  width:50rem;
+}
+.w-exl{
+  width: 100%;
+}
+.w-md{
+  width: 50%;
+}
+.w-full{
+  width: 100%;
+}
+.w-xl{
+  max-width: 900px;
+}
+
+.rounded-xs{
+  border-radius: 1rem;
+}
+.rounded-sm{
+  border-radius: 10%;
+}
+.rounded-md{
+  border-radius: 25%;
+}
+.rounded-xl{
+  border-radius: 50%;
+}
+
+.border{
+  border-radius: 10% 40% / 50% 20%;
+  border: 4px solid #eea00d;
+}
+
+.z-1{
+  z-index: 1;
+}
+.z-2{
+  z-index: 2;
+}
+.z-3{
+  z-index: 3;
+}
+
+.gap-0{
+  gap: 0.5rem;
+}
+.gap-1{
+  gap: 1rem;
+}
+.gap-2{
+  gap: 2rem;
+}
+.gap-3{
+  gap: 3rem;
+}
+.gap-4{
+  gap: 4rem;
+}
+
+
+.p-1{
+  padding: 1rem;
+}
+.p-2{
+  padding: 2rem;
+}
+.p-3{
+  padding: 3rem;
+}
+.p-4{
+  padding: 4rem;
+}
+.px-1{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-2{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px-3{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-4{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.py-1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-3{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-4{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.pb-1{
+  padding-bottom: 1rem;
+}
+.pb-2{
+  padding-bottom: 2rem;
+}
+.pb-3{
+  padding-bottom: 3rem;
+}
+
+.m-1{
+  margin: 1rem;
+}
+.m-2{
+  margin: 2rem;
+}
+.m-3{
+  margin: 3rem;
+}
+.m-4{
+  margin: 4rem;
+}
+
+.mx-1{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-2{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.mx-3{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.mx-4{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.my-1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.my-3{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.my-4{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.mt-2{
+  margin-top: 2rem;
+}
+.mt-3{
+  margin-top: 3rem;
+}
+
+.button{
+  padding: 0.5rem 1rem;
+  color: black;
+  background-color: white;
+}
+.button:hover{
+background-color: #FE7743;
+transition: ease 150ms;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-gradient {
+  background: linear-gradient(197deg, #a21af2, #64e29f, #1bac9d, #eea00d);
+  background-size: 340% 240%;
+  animation: bg-animation 8s ease infinite;
+  height: 5rem;
+  width: 50%;
+  border-top-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
